@@ -1,0 +1,118 @@
+.account-card{
+    position:relative;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 812px;
+    background: #F7F8F9;
+    opacity: 1;
+}
+.title-section{
+    position:relative;
+    width: 375px;
+    height: 68px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000007;
+    opacity: 1;
+}
+.account-title{
+    position: absolute;
+    top: 27px;
+    left: 15px;
+    width: 146px;
+    height: 22px;
+    text-align: left;
+    font-family:'Rubik',sans-serif;
+    font-weight:400;
+    font-size:18px;
+    line-height:21px;
+    letter-spacing: 0px;
+    color: #1D2226;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.profile-image{
+    position:absolute;
+    top: 98px;
+    left: 20px;
+    width: 76px;
+    height: 76px;
+    background: transparent url('img/Ellipse 114.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.camera-image{
+    position:absolute;
+    top: 147px;
+    left: 79px;
+    width: 21px;
+    height: 23px;
+    background: transparent url('img/Group 1585.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.profile-name{
+    position:absolute;;
+    top: 98px;
+    left: 116px;
+    width: 73px;
+    height: 18px;
+    text-align: left;
+    font-size:15px;
+    line-height:17px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #1D2226;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.profile-email{
+    position:absolute;
+    top: 122px;
+    left: 116px;
+    width: 118px;
+    height: 17px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #1D2226;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.profile-description{
+    position:absolute;
+    top: 204px;
+    left: 20px;
+    width: 337px;
+    height: 63px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #1D2226;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.first-dash{
+    position:absolute;
+    top: 287px;
+    left: 0px;
+    width: 375px;
+    height: 0px;
+    border: 1px dashed #CBCBCB;
+    opacity: 1;
+}
+.second-dash{
+    position:absolute;
+    top: 776px;
+    left: 0px;
+    width: 375px;
+    height: 0px;
+    border: 1px dashed #CBCBCB;
+    opacity: 1;
+}

@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.login-screen-container{
+    position:relative;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 812px;
+    background: #F7F8F9;
+    opacity: 1;
+}
+.page-heading{
+    position:absolute;
+    top: 40px;
+    left: 20px;
+    width: 188px;
+    height: 69px;
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #1D2226;
+    opacity: 1;
+}
+.page-subheading{
+    position: absolute;
+    top: 123px;
+    left: 20px;
+    width: 232px;
+    height: 48px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Rubik',sans-serif;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #1D2226;
+    opacity: 0.6;
+}
+.email-label{
+    position: relative;
+    top: 195px;
+    left: 34px;
+    width: 85px;
+    height: 15px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Rubik',sans-serif;
+    line-height: 17px;
+    letter-spacing: 0px;
+    color: #6C25FF;
+    opacity: 1;
+    background: #F7F8F9;
+    padding:0px 13px 2px 5px;
+    /* 2px was 0px */
+}
+
+.email-input-field{
+    position: absolute;
+    top: 204px;
+    left: 20px;
+    width: 335px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Rubik',sans-serif;
+    line-height: 17px;
+    letter-spacing: 0px;
+    border:1px solid #CBCBCB;
+    border-radius: 6px;
+    opacity: 1;
+    background:#F7F8F9;
+    color: #919191;
+}
+
+.password-label{
+    position: relative;
+    top: 240px;
+    left: 34px;
+    width: 59px;
+    height: 15px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Rubik',sans-serif;
+    line-height: 17px;
+    letter-spacing: 0px;
+    color: #6C25FF;
+    opacity: 1;
+    background: #F7F8F9;
+    padding: 0px 39px 2px 5px;
+}
+
+.password-input-field{
+    position: absolute;
+    top: 267px;
+    left: 20px;
+    width: 335px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    line-height: 17px;
+    letter-spacing: 0px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    opacity: 1;
+    background: #F7F8F9;
+    color: #919191;
+}
+
+.email-input-field::placeholder {
+    text-indent: 16px;
+}
+.password-input-field::placeholder {
+    text-indent: 16px;
+}
+
+.login-btn{
+    position:absolute;
+    top: 321px;
+    left: 20px;
+    width: 335px;
+    height: 46px;
+    background: #CBCBCB;
+    border-radius: 6px;
+    opacity: 1;
+    color:#FFFFFF;
+    text-align: center;
+    font-family:'Rubik',sans-serif;
+    letter-spacing: 0px;
+    font-weight: 400;
+    line-height: 17px;
+    font-size:16px;
+}
